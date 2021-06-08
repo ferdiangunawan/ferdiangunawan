@@ -15,8 +15,7 @@ List<Project> PROJECTS = [
     description:
         'Developing a Ticketing booking application with Flutter SDK and Firebase',
     image: 'images/projects/ontix.jpeg',
-    url:
-        'https://drive.google.com/file/d/1350ilQcNq-nUood0LSbEq28JQumQM3go/view?usp=sharing',
+    url: 'https://play.google.com/store/apps/details?id=com.fgdev.ontix',
     skills: [
       'Dart',
       'Json',

@@ -36,12 +36,8 @@ class WorkingProcess extends StatelessWidget {
                 ),
                 const SizedBox(width: 10),
                 Expanded(
-                  child: __buildProcess(
-                      context,
-                      '03.',
-                      'icons/coding.png',
-                      'Code',
-                      'Do some project from Dinas Kesehatan Pekanbaru and Kaltim Prima Coal IoT Komatsu D85ESS-2'),
+                  child: __buildProcess(context, '03.', 'icons/coding.png',
+                      'Code', 'Developing GarapIn Apps with Flutter'),
                 )
               ],
             ),
