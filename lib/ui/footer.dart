@@ -8,8 +8,7 @@ import '../config/colors.dart';
 import 'icon.dart';
 
 class Footer extends StatelessWidget {
-  final String _getInTouch =
-      "Don't worry, Im here for your mobile and IoT Solution";
+  final String _getInTouch = "Don't worry, Im here for your mobile and IoT Solution";
   final String _description =
       "Hi, I'm Flutter Developer, I'm 23 years old. I have a passion as a mobile and IoT engineer. interested in doing problem solving and making things effective and efficient for improving quality.";
 
@@ -169,10 +168,7 @@ class Footer extends StatelessWidget {
                       Wrap(
                         spacing: 10,
                         runSpacing: 10,
-                        children: PROJECTS
-                            .take(4)
-                            .map((p) => _buildProject(context, p))
-                            .toList(),
+                        children: PROJECTS.take(4).map((p) => _buildProject(context, p)).toList(),
                       )
                     ],
                   ),
@@ -189,7 +185,7 @@ class Footer extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  'Ferdian Gunawan Portfolio ©${DateTime.now().year}',
+                  'FGDev and Powered by OuahidDev ©${DateTime.now().year}',
                   style: TextStyle(
                     color: AppColors.greyLight.withOpacity(.75),
                   ),
@@ -344,10 +340,7 @@ class Footer extends StatelessWidget {
                 Wrap(
                   spacing: 10,
                   runSpacing: 10,
-                  children: PROJECTS
-                      .take(4)
-                      .map((p) => _buildProject(context, p))
-                      .toList(),
+                  children: PROJECTS.take(4).map((p) => _buildProject(context, p)).toList(),
                 )
               ],
             ),
