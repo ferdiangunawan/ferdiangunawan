@@ -14,6 +14,7 @@ class About extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => ResponsiveWidget(
+        tabletScreen: Text('tablet'),
         desktopScreen: Container(
           color: Colors.white,
           padding: EdgeInsets.symmetric(
@@ -63,8 +64,7 @@ class About extends StatelessWidget {
                               onPressed: () {},
                               color: AppColors.yellow,
                               textColor: Colors.white,
-                              padding: const EdgeInsets.symmetric(
-                                  horizontal: 30, vertical: 20),
+                              padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
                               child: Text('HIRE ME NOW'),
                             ),
                             const SizedBox(width: 20),
@@ -72,8 +72,7 @@ class About extends StatelessWidget {
                               onPressed: _downloadCV,
                               color: AppColors.black,
                               textColor: Colors.white,
-                              padding: const EdgeInsets.symmetric(
-                                  horizontal: 30, vertical: 20),
+                              padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
                               child: Text('VIEW RESUME'),
                             ),
                           ],
@@ -140,8 +139,7 @@ class About extends StatelessWidget {
                 onPressed: () {},
                 color: AppColors.yellow,
                 textColor: Colors.white,
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
+                padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
                 child: Text('HIRE ME NOW'),
               ),
               const SizedBox(height: 20),
@@ -149,8 +147,7 @@ class About extends StatelessWidget {
                 onPressed: _downloadCV,
                 color: AppColors.black,
                 textColor: Colors.white,
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
+                padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
                 child: Text('VIEW RESUME'),
               ),
               const SizedBox(height: 50),

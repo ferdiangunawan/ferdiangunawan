@@ -1,7 +1,7 @@
 mixin AppConstants {
   static final String mail = 'ferdiangunawan18@gmail.com';
 
-  static final String phone = '088808978500';
+  static final String phone = '088808978500 || 081211830858 (WA)';
 
   static final String location = 'Jakarta, Indonesia';
 
@@ -13,6 +13,5 @@ mixin AppConstants {
 
   static final String facebook = 'https://www.facebook.com/fferdianz';
 
-  static final String cv =
-      'https://drive.google.com/file/d/1ORmsJxsnzuHYq2aJw6JLp0Vc-dAFVEqb/view?usp=sharing';
+  static final String cv = 'https://drive.google.com/file/d/14LjJOeiYKDbGzvY-OEh9821k9X2qqDsu/view?usp=sharing';
 }

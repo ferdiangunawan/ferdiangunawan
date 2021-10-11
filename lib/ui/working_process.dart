@@ -26,18 +26,15 @@ class WorkingProcess extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Expanded(
-                  child: __buildProcess(context, '01.', 'icons/pencil.png',
-                      'Plan', 'Planning my next app'),
+                  child: __buildProcess(context, '01.', 'icons/pencil.png', 'Plan', 'Planning my next app'),
                 ),
                 const SizedBox(width: 10),
                 Expanded(
-                  child: __buildProcess(context, '02.', 'icons/design.png',
-                      'Design', 'Design my photo background remover app.'),
+                  child: __buildProcess(context, '02.', 'icons/design.png', 'Design', 'Designing my personal project.'),
                 ),
                 const SizedBox(width: 10),
                 Expanded(
-                  child: __buildProcess(context, '03.', 'icons/coding.png',
-                      'Code', 'Developing GarapIn Apps with Flutter'),
+                  child: __buildProcess(context, '03.', 'icons/coding.png', 'Code', 'Developing GarapIn App'),
                 )
               ],
             ),
@@ -61,22 +58,18 @@ class WorkingProcess extends StatelessWidget {
             const SizedBox(height: 3),
             Container(width: 50, height: 2, color: AppColors.yellow),
             const SizedBox(height: 50),
-            __buildProcess(context, '01.', 'icons/pencil.png', 'Plan',
-                'Planning my next app'),
+            __buildProcess(context, '01.', 'icons/pencil.png', 'Plan', 'Planning my next app'),
             const SizedBox(height: 10),
-            __buildProcess(context, '02.', 'icons/design.png', 'Design',
-                'Design my photo background remover app.'),
+            __buildProcess(context, '02.', 'icons/design.png', 'Design', 'Designing my personal project.'),
             const SizedBox(height: 10),
-            __buildProcess(context, '03.', 'icons/coding.png', 'Code',
-                'Do some project from Dinas Kesehatan Pekanbaru and Kaltim Prima Coal IoT Komatsu D85ESS-2'),
+            __buildProcess(context, '03.', 'icons/coding.png', 'Code', 'Develop GarapIn App'),
           ],
         ),
       ),
     );
   }
 
-  Widget __buildProcess(BuildContext context, String index, String iconPath,
-      String title, String description) {
+  Widget __buildProcess(BuildContext context, String index, String iconPath, String title, String description) {
     return Card(
       elevation: 3,
       child: Padding(
